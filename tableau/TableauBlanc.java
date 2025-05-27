@@ -62,7 +62,7 @@ public class TableauBlanc implements ServiceTableauBlanc {
 
     public TableauBlanc() {
         canevas = new JPanel();                                      // Création de la zone de dessin
-        canevas.setPreferredSize( new Dimension(300, 300) );
+        canevas.setPreferredSize( new Dimension(1200, 1200) );
         JPanel palette = CreerPaletteCouleur();                      // Création de la zone de couleur (voir plus haut)
         JPanel global = new JPanel();                                // Créer un panel global et y poser la palette et le canevas
         global.setLayout( new BorderLayout() );
